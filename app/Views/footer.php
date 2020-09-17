@@ -1,11 +1,11 @@
 <footer class="py-4 bg-light mt-auto">
     <div class="container-fluid">
         <div class="d-flex align-items-center justify-content-between small">
-            <div class="text-muted">Copyright &copy; Your Website 2020</div>
+            <div class="text-muted">Copyright &copy; Sistems HBS <?php echo date("Y"); ?></div>
             <div>
-                <a href="#">Privacy Policy</a>
+                <a href="#">Terminos de Privacidad</a>
                 &middot;
-                <a href="#">Terms &amp; Conditions</a>
+                <a href="#">Terminos de Uso</a>
             </div>
         </div>
     </div>

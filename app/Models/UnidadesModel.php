@@ -3,9 +3,6 @@
 
     use CodeIgniter\Model;
 
-    /**
-     *
-     */
     class UnidadesModel extends Model
     {
       protected $table      = 'unidades';

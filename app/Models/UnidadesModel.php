@@ -16,7 +16,6 @@
       protected $useTimestamps = true;
       protected $createdField  = 'fecha_alta';
       protected $updatedField  = 'fecha_edit';
-      // protected $deletedField  = 'deleted_at';
 
       protected $validationRules    = [];
       protected $validationMessages = [];

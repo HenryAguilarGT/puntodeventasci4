@@ -16,7 +16,7 @@
         public function index($activo = 1)
         {
             $unidades = $this->unidades->where('activo',$activo)->findAll();
-            $data = ['titulo' => 'Unidades', 'datos' => $unidades];
+            $data = ['titulo' => 'Unidades de producto', 'datos' => $unidades];
 
             echo view('header');
             echo view('unidades/unidades', $data);

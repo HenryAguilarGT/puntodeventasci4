@@ -37,4 +37,20 @@
             $this->unidades->save(['nombre' => $this->request->getPost('nombre'), 'nombre_corto' => $this->request->getPost('nombre_corto')]);
             return redirect()->to(base_url().'/unidades');
         }
+
+        public function editar($id)
+        {
+            $unidad = $this->unidades->where('id',$id)->first();
+            $data = ['titulo' => 'Editar unidad', 'datos' => $unidad];
+
+            echo view('header');
+            echo view('unidades/editar', $data);
+            echo view('footer');
+        }
+
+        public function actualizar()
+        {
+            $this->unidades->update($this->request->getPost('id'), ['nombre' => $this->request->getPost('nombre'), 'nombre' => $this->request->getPost('nombre'), 'nombre_corto' => $this->request->getPost('nombre_corto')]);
+            return redirect()->to(base_url().'/unidades');
+        }
     }

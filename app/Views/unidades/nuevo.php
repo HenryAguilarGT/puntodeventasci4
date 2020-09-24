@@ -2,7 +2,7 @@
       <main>
           <div class="container-fluid">
             <h4 class="mt-4"><?php echo $titulo;  ?></h4>
-            <form method="post" action="<?php echo base_url();?>/unidades/insertar" autocomplete="off">
+            <form method="POST" action="<?php echo base_url();?>/unidades/insertar" autocomplete="off">
                 <div class="form-group">
                       <div class="row">
                           <div class="col-6 col-sm-6 py-3">

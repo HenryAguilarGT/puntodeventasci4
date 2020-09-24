@@ -22,4 +22,13 @@
             echo view('unidades/unidades', $data);
             echo view('footer');
         }
+
+        public function nuevo()
+        {
+            $data = ['titulo' => 'Agregar unidad'];
+
+            echo view('header');
+            echo view('unidades/nuevo', $data);
+            echo view('footer');
+        }
     }

@@ -4,8 +4,7 @@
           <h4 class="mt-4"><?php echo $titulo;  ?></h4>
               <div class="py-3">
                     <p>
-                        <a href="<?php echo base_url(); ?>/unidades/nuevo" class="btn btn-info">Agregar</a>
-                        <a href="<?php echo base_url(); ?>/unidades/eliminados" class="btn btn-warning">Eliminados</a>
+                        <a href="<?php echo base_url(); ?>/unidades" class="btn btn-warning">Regresar</a>
                     </p>
               </div>
                 <div class="table-responsive">
@@ -15,8 +14,7 @@
                                   <th>ID</th>
                                   <th>Nombre</th>
                                   <th>Nombre corto</th>
-                                  <th>Modificar</th>
-                                  <th>Dar de baja</th>
+                                  <th>Reingresar</th>
                               </tr>
                           </thead>
                           <tbody>
@@ -26,10 +24,7 @@
                                       <td><?php echo $dato['nombre']; ?></td>
                                       <td><?php echo $dato['nombre_corto']; ?></td>
                                       <td>
-                                          <a href="<?php echo base_url(). '/unidades/editar/'. $dato ['id']; ?>" class="btn btn-warning"><i class="fa fa-edit"></i></a>
-                                      </td>
-                                      <td>
-                                          <a href="<?php echo base_url(). '/unidades/eliminar/'. $dato ['id']; ?>" class="btn btn-danger"><i class="fas fa-trash"></i></a>
+                                          <a href="<?php echo base_url(). '/unidades/reingresar/'. $dato ['id']; ?>" class="btn btn-warning"><i class="fas fa-undo"></i></a>
                                       </td>
                                   </tr>
                               <?php } ?>

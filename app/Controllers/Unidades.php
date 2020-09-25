@@ -53,4 +53,10 @@
             $this->unidades->update($this->request->getPost('id'), ['nombre' => $this->request->getPost('nombre'), 'nombre' => $this->request->getPost('nombre'), 'nombre_corto' => $this->request->getPost('nombre_corto')]);
             return redirect()->to(base_url().'/unidades');
         }
+
+        public function eliminar($id)
+        {
+            $this->unidades->update ($id, ['activo' => 0]);
+            return redirect()->to(base_url().'/unidades');
+        }
     }

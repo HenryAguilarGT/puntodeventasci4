@@ -29,7 +29,7 @@
                                           <a href="<?php echo base_url(). '/unidades/editar/'. $dato ['id']; ?>" class="btn btn-warning"><i class="fa fa-edit"></i></a>
                                       </td>
                                       <td>
-                                          <a href="<?php echo base_url(); ?>/unidades/eliminar"<?php echo $dato['id']; ?> class="btn btn-danger"><i class="fas fa-trash"></i></a>
+                                          <a href="<?php echo base_url(). '/unidades/eliminar/'. $dato ['id']; ?>" class="btn btn-danger"><i class="fas fa-trash"></i></a>
                                       </td>
                                   </tr>
                               <?php } ?>

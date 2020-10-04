@@ -24,7 +24,7 @@
                                       <td><?php echo $dato['nombre']; ?></td>
                                       <td><?php echo $dato['nombre_corto']; ?></td>
                                       <td>
-                                          <a href="<?php echo base_url(). '/unidades/reingresar/'. $dato ['id']; ?>" class="btn btn-warning"><i class="fas fa-undo"></i></a>
+                                          <a href="#" data-href="<?php echo base_url(). '/unidades/reingresar/'. $dato ['id']; ?>" data-toggle="modal" data-target="#modal-confirma" data-placement="top" title="Rehabilitar unidad" class="btn btn-warning"><i class="fas fa-undo"></i></a>
                                       </td>
                                   </tr>
                               <?php } ?>
@@ -33,3 +33,24 @@
                   </div>
               </div>
           </main>
+
+          <!-- Modal -->
+          <div class="modal fade" id="modal-confirma" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-sm">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel"> Rehabilitar unidad</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Desea rehabilitar esta unidad?</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                        <a class="btn btn-danger btn-ok">Confirmar</a>
+                    </div>
+                    </div>
+                </div>
+            </div>

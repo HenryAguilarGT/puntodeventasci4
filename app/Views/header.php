@@ -20,10 +20,10 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" id="userDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-                        <a class="dropdown-item" href="#">Settings</a>
-                        <a class="dropdown-item" href="#">Activity Log</a>
+                        <a class="dropdown-item" href="#">Configuracio</a>
+                        <a class="dropdown-item" href="#">Log de Actividades</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="login.html">Logout</a>
+                        <a class="dropdown-item" href="login.html">salir</a>
                     </div>
                 </li>
             </ul>
@@ -40,7 +40,7 @@
                             </a>
                             <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="layout-static.html">Productos</a>
+                                    <a class="nav-link" href="<?php echo base_url();?>/productos">Productos</a>
                                     <a class="nav-link" href="<?php echo base_url();?>/unidades">Unidades</a>
                                     <a class="nav-link" href="<?php echo base_url();?>/categorias">Categorias</a>
                                 </nav>

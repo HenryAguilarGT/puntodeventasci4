@@ -45,7 +45,10 @@
                                     <a class="nav-link" href="<?php echo base_url();?>/categorias">Categorias</a>
                                 </nav>
                             </div>
-
+                            <a class="nav-link" href="<?php echo base_url();?>/clientes">
+                                <div class="sb-nav-link-icon"><i class="fas fa-users"></i></div>
+                                Clientes
+                            </a>
                         </div>
                     </div>
                 </nav>

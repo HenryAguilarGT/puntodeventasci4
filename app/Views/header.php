@@ -49,6 +49,21 @@
                                 <div class="sb-nav-link-icon"><i class="fas fa-users"></i></div>
                                 Clientes
                             </a>
+                            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#subAdministracion" aria-expanded="false" aria-controls="subAdministracion">
+                                <div class="sb-nav-link-icon"><i class="fas fa-tools"></i></div>
+                                Administracion
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="subAdministracion" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="<?php echo base_url();?>/configuracion">Configuracion</a>
+                                    <a class="nav-link" href="<?php echo base_url();?>/usuarios">Usuarios</a>
+                                    <a class="nav-link" href="<?php echo base_url();?>/roles">Roles</a>
+                                    <a class="nav-link" href="<?php echo base_url();?>/cajas">Cajas</a>
+                                    <a class="nav-link" href="<?php echo base_url();?>/vitacora">Vitacora</a>
+                                    <a class="nav-link" href="<?php echo base_url();?>/respaldardb">Respaldar BD</a>
+                                </nav>
+                            </div>
                         </div>
                     </div>
                 </nav>

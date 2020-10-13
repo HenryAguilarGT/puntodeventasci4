@@ -10260,3 +10260,9 @@ body {
 .sb-sidenav-light .sb-sidenav-footer {
   background-color: #e9ecef;
 }
+
+.bg-login-image {
+    background: url('https://images.pexels.com/photos/4199489/pexels-photo-4199489.jpeg?cs=srgb&dl=pexels-jack-sparrow-4199489.jpg&fm=jpg/');
+    background-position: center;
+    background-size: cover;
+}

@@ -33,7 +33,7 @@
               <div class="col-lg-6">
                 <div class="p-5">
                   <div class="text-center">
-                    <img src="http://henrybelmonte.website/tpv//images/logo.gif" alt="">
+                    <img src="http://henrybelmonte.website/tpv/images/logo.gif" alt="">
                   </div>
                   <form class="user">
                     <div class="form-group">

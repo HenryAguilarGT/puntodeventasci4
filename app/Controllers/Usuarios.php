@@ -124,14 +124,14 @@
 
         public function editar($id, $valid=null)
         {
-            $unidad = $this->usuarios->where('id',$id)->first();
+            $usuarios = $this->usuarios->where('id',$id)->first();
             
             if($valid != null)
             {
-                $data = ['titulo' => 'Editar unidad', 'datos' => $unidad, 'validation' => $valid];
+                $data = ['titulo' => 'Editar usuario', 'datos' => $usuarios, 'validation' => $valid];
             } else
             {
-                $data = ['titulo' => 'Editar unidad', 'datos' => $unidad];
+                $data = ['titulo' => 'Editar usuario', 'datos' => $usuarios];
             }
 
             echo view('header');

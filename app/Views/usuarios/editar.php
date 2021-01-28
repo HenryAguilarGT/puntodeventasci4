@@ -15,19 +15,19 @@
                     <div class="row">
                     	<div class="col-6 col-sm-6 py-3">
                     		<label>Usuario</label>
-                    		<input type="form-control" id="usuario" name="usuario" type="text" style="width: 100%;" value="<?php echo $usuarios['usuario'] ?>" autofocus>
+                    		<input type="form-control" id="usuario" name="usuario" type="text" style="width: 100%;" value="<?php echo $datos['usuario'] ?>" autocomplete="off" autofocus>
                     	</div>
                     	<div class="col-6 col-sm-6 py-3">
                         	<label>Nombre</label>
-                        	<input type="form-control" id="nombre" name="nombre" type="text" style="width: 100%;" value="<?php echo set_value('nombre')?>" required >
+                        	<input type="form-control" id="nombre" name="nombre" type="text" style="width: 100%;" value="<?php echo $datos['nombre'] ?>" required >
                     	</div>
                     	 <div class="col-6 col-sm-6 py-3">
                         	<label>Contraseña</label>
-                        	<input type="password" id="password" class="form-control" name="password" type="password" style="width: 100%;" value="<?php echo set_value('password')?>" required >
+                        	<input type="password" id="password" class="form-control" name="password" type="password" style="width: 100%;" value="<?php echo $datos['passwrod'] ?>" required >
                     	</div>
                     	<div class="col-6 col-sm-6 py-3">
                         	<label>Confirmar contraseña</label>
-                        	<input type="password" id="repassword" class="form-control" name="repassword" type="password" style="width: 100%;" value="<?php echo set_value('repassword')?>" required >
+                        	<input type="password" id="repassword" class="form-control" name="repassword" type="password" style="width: 100%;" value="<?php echo $datos['passwrod'] ?>" required >
                     	</div>
                     	<div class="col-6 col-sm-6 py-3">
                         	<label>Caja</label>
